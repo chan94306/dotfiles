@@ -1,0 +1,7 @@
+# caption always "%{= Wk}%-w%{= Bw}%n %t%{-}%+w %-= %{= dg}%c"
+# caption always "%{= bb}%{+b w}%h %=%{=b rw} %l %{= db} ${USER}@%H %{= dg}%c"
+# hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+# hardstatus alwayslastline "%{= KW} %H |%{-} %-Lw%{= bW}%n%f %t%{-}%+Lw %=%c %Y-%M-%d"
+caption     always        "%{+b Wr}%H%{gk} |%c %{KW}%d.%m.%Y | %{kW} %72=Load: %l %{wk}"
+hardstatus alwayslastline "%?%{+b BW}%-Lw%?%{+b kG}%n*%f %t%?(%u)%?%?%{-b gW}%+Lw%?"
+activity "%c Activity -> %n%f %t^G"
